@@ -1,5 +1,5 @@
 CREATE TABLE lists (
   id SERIAL PRIMARY KEY,
   title TEXT NOT NULL,
-  items JSON
+  items JSON NOT NULL
 );
